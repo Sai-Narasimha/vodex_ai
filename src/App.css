@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.hide_scrollbar::-webkit-scrollbar {
+  display: none;
+}
 @font-face {
   font-family: Poppins;
   src: url('./fonts/poppins/Poppins-Medium.ttf');
@@ -9,6 +11,10 @@
 @font-face {
   font-family: Mulish;
   src: url('./fonts/mulish/Mulish-Black.ttf');
+}
+@font-face {
+  font-family: MulishBold;
+  src: url('./fonts/mulish/Mulish-ExtraBold.ttf');
 }
 @font-face {
   font-family: MulishLight;
